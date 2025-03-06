@@ -1,24 +1,33 @@
-import Header from "../componentes/Header";
-import Footer from "../componentes/Footer";
-import Card from "../componentes/Card";
 
 export default function Home() {
     return (
-        <div>
-            <Header />
-            <main>
-                <div>
-                <Card title="STITCH" content="Stitch é um personagem alienígena que ficou conhecido com os filmes e programas de televisão Lilo & Stitch da Disney. Ele foi criado originalmente para causar o caos através da galáxia, marcado pelo seu temperamento abrupto e seu jeito brincalhão e malvado." />
-                <Card title="LILO" content="Mesmo com a sua personalidade excêntrica e os seus momentos de irresponsabilidade e desobediência, Lilo é uma menina muito bondosa, paciente, fiel, engraçada, caridosa e que se preocupa com os outros." />
-                <Card title="LILO E STITCH" content="À medida que a história se desenrola, Lilo ensina Stitch sobre amor, família e o significado de pertencimento, enquanto ele tenta se adaptar ao mundo humano e a sua nova vida. O filme aborda temas como a importância da família, a superação de desafios e a aceitação das diferenças." />
-                </div>
 
-                <div className="img">
-                    <img src="../Img/lilostitch.png"></img>
+        <div class="container">
+            <h1>Welcome!</h1>
+            <h2>Login</h2>
+            <p class="text-sm text-center mb-10">Don't have an account? <a href="https://www.seedprod.com">Get SeedProd Now</a></p>
+
+            <div className="card-login">
+            <h3>Cadastra-se</h3>
+            <input type="text" id="taskInput" placeholder='Username'/>
+            <input type="password" id="taskInput" placeholder='Password'/>
+            <input type="password" id="taskInput" placeholder='Confirm Password'/>
+            <button onclick="addTask()">Cadastrar</button>
+
+            <h3>Login</h3>
+            <input type="text" id="taskInput" placeholder='Username'/> 
+            <input type="password" id="taskInput" placeholder='Password'/>
+            <button onclick="addTask()">Login</button> 
+            </div>
+
+            <div class="icon">
+            <a href="https://www.instagram.com"><img src="https://img.icons8.com/ios-filled/50/000000/instagram-new.png"/></a>
+            <a href="https://www.twitter.com"><img src="https://img.icons8.com/ios-filled/50/000000/twitter.png"/></a>
+            <a href="https://www.linkedin.com"><img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png"/></a>
+
+                
                 </div>
-            </main>
-            <Footer />
         </div>
-
     )
 }
+
