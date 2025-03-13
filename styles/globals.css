@@ -1,79 +1,99 @@
 * {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
 }
 
 .container {
-	background-image: url('../Img/auraazul.jpg');
-	background-size: cover;
-	text-align: center;
-	background-position: center;
-	height: 100vh;	
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../img/auraazul.jpg');
+    background-size: cover;
+    text-align: center;
+    background-position: center;
 }
 
 h1 {
-	color: rgb(255, 255, 255);
-	font-size: 50px;
-	margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-top: 20px;
 }
 
 h2 {
-	color: rgb(93, 197, 238);
-	font-size: 30px;
-	margin-top: 20px;
+    color: rgb(93, 197, 238);
+    font-size: 30px;
+    margin-top: 20px;
 }
 
 p {
-	color: rgb(255, 255, 255);
-	font-size: 20px;
-	margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-top: 20px;
 }
 
 a {
-	color: rgb(68, 0, 255);
-	font-size: 20px;
-	margin-top: 20px;
+    color: rgb(68, 0, 255);
+    font-size: 20px;
+    margin-top: 20px;
 }
 
 .card-login {
-	background-color: rgba(255, 255, 255, 0.8);
-	border-radius: 8px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-	margin: 70px auto;
-	pad: 20px;
-	max-width: 400px;
-	padding: 20px;
-	width: 300%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
 }
 
 .card-login h2 {
-	font-size: 32px;
-	margin-bottom: 20px;
+    font-size: 32px;
+    margin-bottom: 20px;
 }
 
 .card-login input {
-	border-radius: 8px;
-	border: 1px solid #6e4dc7;
-	display: block;
-	font-size: 16px;
-	margin: 10px auto;
-	padding: 10px;
-	width: 80%;
+    border-radius: 8px;
+    border: 1px solid #6e4dc7;
+    display: block;
+    font-size: 16px;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
 }
 
 .card-login button {
-	background-color: #1e90ff;
-	border: 0;
-	border-radius: 8px;
-	color: white;
-	cursor: pointer;
-	display: block;
-	font-size: 16px;
-	margin: 10px auto;
-	padding: 10px;
-	width: 80%;
+    background-color: #1e90ff;
+    border: 0;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
 }
 
 .card-login button:hover {
-	background-color: #1e90ff;
+    background-color: #1c86ee;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.icon img {
+    width: 50px;
+    height: 50px;
 }
