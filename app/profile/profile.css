@@ -1,0 +1,38 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../img/auraazul.jpg');
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+}
+
+.profile-card {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: rgb(93, 197, 238);
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
