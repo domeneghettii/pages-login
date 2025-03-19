@@ -7,7 +7,6 @@ export default function Signup() {
     return (
         <div className={styles.container}>
             <div className={styles.login}>
-                <img src="/optionmonster-logo.png" alt="Logo"></img>
                 <h1> Sign Up</h1>
                 <p>Have an account? <a href="/signin">Log In</a></p>
                 <div className={styles. email}>
@@ -23,7 +22,7 @@ export default function Signup() {
                     <a href="#" className="information"> <a href="/password">Forgot your password?</a></a>  
                 </div>
                 <div className={styles.footer}>
-                <h4>Copyright © 2025 By <a href="/conteudo">Luana Domeneghetti</a></h4>
+                <h4>Copyright © 2025 By <a href="/profile">Luana Domeneghetti</a></h4>
                 </div>
             </div>
         </div>

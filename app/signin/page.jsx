@@ -25,7 +25,7 @@ export default function Home() {
                 <a href="#" className="information"><a href="/password">Forgot Password?</a></a>
             </div>
             <div className={styles.footer}>
-            <h4>Copyright © 2025 By <a href="/conteudo">Luana Domeneghetti</a></h4>
+            <h4>Copyright © 2025 By <a href="/profile">Luana Domeneghetti</a></h4>
             </div>
         </div>
     );
