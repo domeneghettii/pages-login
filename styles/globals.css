@@ -1,6 +1,63 @@
-html, body {
-	margin: 0;
-	padding: 0;
-	background-color:#5920b6;
-	font-family:'Courier New', Courier, monospace;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #5920b6;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Para tablets (largura até 768px) */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .menu {
+    display: block;
+    text-align: center;
+  }
+}
+
+/* Para celulares (largura até 480px) */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .logo {
+    width: 100px; /* Ajuste o tamanho do logo */
+  }
+
+  button {
+    width: 100%; /* Botões ocupam toda a largura */
+    padding: 10px;
+    font-size: 16px;
+  }
 }

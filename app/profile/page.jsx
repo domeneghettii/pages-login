@@ -55,6 +55,7 @@ export default function Profile() {
             </div>
             <div className={styles.info}>
                 <p>Thank you for your attention and for visiting my website!<a href="/signin">To go back</a></p>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
             </div>
         </div>
     );

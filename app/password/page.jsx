@@ -22,6 +22,7 @@ export default function Home() {
                 <div className={styles.information}>
                 <p><a href="/signin">Retorn to Login</a></p>
                 <h4>Copyright © 2025 By <a href="/profile">Luana Domeneghetti</a></h4>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
                 </div>
             </div>
             </div>
