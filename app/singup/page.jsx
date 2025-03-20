@@ -19,7 +19,7 @@ export default function Signup() {
                 </div>
                 <div className={styles.logincontainer}>
                     <button className={styles.loginbutton}>Sign Up</button>
-                    <a href="#" className="information"> <a href="/password">Forgot your password?</a></a>  
+                    <a href="/password" className="information">Forgot your password?</a>  
                 </div>
                 <div className={styles.footer}>
                 <h4>Copyright © 2025 By <a href="/profile">Luana Domeneghetti</a></h4>
