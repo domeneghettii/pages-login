@@ -8,7 +8,7 @@ export default function Home() {
 
     return (
         <div className={styles.container}>
-            <div className={styles.img}>
+            <div className={styles.password}>
             </div>
         <h1>Reset Password</h1>
         <p>Enter your email address below to reset your account password.</p>

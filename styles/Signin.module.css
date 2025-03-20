@@ -1,7 +1,7 @@
 
 .container {
 	background-image: url('/auraazul.jpg'); 
-    width: 45%;
+    width: 50%;
     height: 130vh;
     margin: 5% auto;
     background-color:#ebebeb;
@@ -14,15 +14,14 @@
     color: #000000;
 	padding-top: 20px;
     text-align: center;
-    font-size: 26px;
-
+    font-size: 25px;
     margin-top: 50px;
 }
 
 .login p {
     color: #000000;
     text-align: center;
-    font-size: 10x;
+    font-size: 14px;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -37,20 +36,20 @@
 	font-family: Arial, Helvetica, sans-serif;
     color: #000000;
     padding-left: 20px;
-    font-size: 19;
+    font-size: 16px;
     margin-top: 25px;
 }
 
 .email input {
     background-color:#ccc8d8;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 90%;
-    height: 55px;
+    width: 85%;
+    height: 50px;
     border-radius: 10px;
     border: none;
     outline: none;
     padding: 0px 10px;
-    font-size: 20px;
+    font-size: 18px;
     margin: 10px;
 }
 
@@ -58,20 +57,20 @@
 	font-family: Arial, Helvetica, sans-serif;
     color: #000000;
     padding-left: 20px;
-    font-size: 19;
-    margin-top: 20px;
+    font-size: 16px;
+    margin-top: 25px;
 }
 
 .password input {
 	background-color:#ccc8d8;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 90%;
+    width: 85%;
     height: 55px;
     border-radius: 10px;
     border: none;
     outline: none;
     padding: 0px 10px;
-    font-size: 20px;
+    font-size: 18px;
     margin: 10px;
 }
 
